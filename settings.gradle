@@ -1,0 +1,2 @@
+rootProject.name='ECGClaissfier'
+include ':app'
