@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@drawable/add_image"
+        android:src="@drawable/add_image"
         android:layout_alignParentBottom="true"
         />
 
@@ -57,6 +57,18 @@
         android:layout_margin="@dimen/fab_margin"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        app:srcCompat="@drawable/send"
+        android:src="@drawable/send"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:visibility="visible"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_above="@id/fab"
+        android:tint="@color/white"
+        android:src="@drawable/ic_camera"
         />
 </RelativeLayout>

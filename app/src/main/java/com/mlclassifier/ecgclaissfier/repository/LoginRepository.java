@@ -42,6 +42,7 @@ public class LoginRepository {
                         login.showSuccessSnackBar("Successfully login");
                         Intent intent = new Intent(login, MainActivity.class);
                         login.startActivity(intent);
+                        login.finish();
                         Toast.makeText(login, Constants.LOGGED_IN, Toast.LENGTH_SHORT).show();
                     }else {
                         login.showErrorSnackBar("Login failed " + response.body().get(0).getSuccess());

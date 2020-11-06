@@ -1,8 +1,8 @@
 package com.mlclassifier.ecgclaissfier.model;
 
 public class Constants {
-    public static String REST_API = "http://X:33/api/";
-    public static String URL_IMAGES = "http://X:33/static/";
+    public static String REST_API = "http://192.168.10.6:33/api/";
+    public static String URL_IMAGES = "http://192.168.10.6:33/static/";
 
     public static final String LOGGED_IN = "User logged in";
     public static final String REGISTERED = "User registered";

@@ -33,6 +33,8 @@ public class HomeViewModel extends AndroidViewModel {
     Application application;
 
     Bitmap selectedBitmap;
+    String currentPhotoPath;
+    Uri photoURI;
 
     public HomeViewModel(@NonNull Application application) {
         super(application);
